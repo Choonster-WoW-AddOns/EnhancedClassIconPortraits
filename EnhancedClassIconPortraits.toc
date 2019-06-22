@@ -4,7 +4,7 @@
 ## Author: Choonster
 ## Version: @project-version@
 
-## X-Curse-Project-ID: 
-## X-WoWI-ID: 
+## X-Curse-Project-ID: 325000
+## X-WoWI-ID: 25035
 
 core.lua

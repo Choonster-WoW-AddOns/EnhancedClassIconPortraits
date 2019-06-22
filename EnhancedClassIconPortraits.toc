@@ -1,0 +1,10 @@
+## Title: EnhancedClassIconPortraits
+## Interface: 80100
+## Notes: Replaces the portraits of the default unit frames with class icons.
+## Author: Choonster
+## Version: @project-version@
+
+## X-Curse-Project-ID: 
+## X-WoWI-ID: 
+
+core.lua

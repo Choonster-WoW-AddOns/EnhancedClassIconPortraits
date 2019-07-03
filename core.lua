@@ -10,7 +10,9 @@ hooksecurefunc("UnitFramePortrait_Update", function(self)
 			if class then
 				self.portrait:SetTexture(TEXTURE_NAME:format(class))
 			else
+				--@alpha@
 				print(("EnhancedClassIconPortraits Error: UnitClass returned nil for unit %q"):format(self.unit))
+				--@end-alpha@
 			end
 		end
 	end

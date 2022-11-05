@@ -1,4 +1,5 @@
 /*
+!.github/
 !.gitignore
 !.gitattributes
 !EnhancedClassIconPortraits.toc
@@ -11,3 +12,4 @@
 !CONTRIBUTORS.md
 !.pkgmeta
 !.travis.yml
+!publish.ps1

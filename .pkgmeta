@@ -9,3 +9,4 @@ manual-changelog:
 
 ignore:
     - Screenshots
+    - publish.ps1

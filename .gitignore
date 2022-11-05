@@ -1,5 +1,6 @@
 /*
 !.github/
+!.vscode/
 !.gitignore
 !.gitattributes
 !EnhancedClassIconPortraits.toc
@@ -11,5 +12,4 @@
 !LICENSE.txt
 !CONTRIBUTORS.md
 !.pkgmeta
-!.travis.yml
 !publish.ps1

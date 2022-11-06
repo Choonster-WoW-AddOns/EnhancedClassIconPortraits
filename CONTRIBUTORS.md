@@ -11,3 +11,4 @@ Texture contributors:
 - SHAMAN - OligoFriends (based on icon from Hearthstone)
 - WARLOCK - OligoFriends (based on icon from Hearthstone)
 - WARRIOR - OligoFriends (based on icon from Hearthstone)
+- EVOKER - OligoFriends

@@ -1,3 +1,6 @@
+## 1.1.0
+- Add Evoker icon
+
 ## 1.0.3
 - Bump TOC Interface version to 10.0.0
 

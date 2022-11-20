@@ -1,5 +1,5 @@
 ## Title: EnhancedClassIconPortraits
-## Interface: 100000
+## Interface: 100002
 ## Notes: Replaces the portraits of the default unit frames with class icons.
 ## Author: Choonster
 ## Version: @project-version@

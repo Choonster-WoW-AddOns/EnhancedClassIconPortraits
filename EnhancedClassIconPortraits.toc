@@ -7,4 +7,5 @@
 ## X-Curse-Project-ID: 325000
 ## X-WoWI-ID: 25035
 
+config.lua
 core.lua

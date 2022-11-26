@@ -28,3 +28,15 @@ hooksecurefunc("UnitFramePortrait_Update", function(self)
 		end
 	end
 end)
+
+if EnabledForUnit("player") then
+	local background = PlayerFrame:CreateTexture("EnhancedClassIconPortraits_PlayerFramePortraitBackground", "BACKGROUND")
+	background:SetColorTexture(0, 0, 0)
+	background:SetPoint(PlayerFrame.portrait:GetPoint(1))
+	background:SetSize(PlayerFrame.portrait:GetSize())
+	
+	local layer, subLevel = PlayerFrame.portrait:GetDrawLayer()
+	background:SetDrawLayer(layer, subLevel - 1)
+
+	background:AddMaskTexture(PlayerFrame.portrait:GetMaskTexture(1))
+end

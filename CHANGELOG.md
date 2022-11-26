@@ -1,3 +1,7 @@
+# 1.2.0
+- Add option to enable/disable class icon portraits per unit
+- Create background for player portrait if enabled
+
 # 1.1.1
 - Bump TOC Interface version to 10.0.2
 

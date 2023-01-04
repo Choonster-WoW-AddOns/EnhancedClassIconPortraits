@@ -1,3 +1,7 @@
+## 1.3.0
+- Add flat icons from saltybear121
+- Add option to switch back to original icons
+
 # 1.2.0
 - Add option to enable/disable class icon portraits per unit
 - Create background for player portrait if enabled

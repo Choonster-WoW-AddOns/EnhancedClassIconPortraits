@@ -9,4 +9,5 @@ manual-changelog:
 
 ignore:
     - Screenshots
+    - TextureProjectFiles
     - publish.ps1

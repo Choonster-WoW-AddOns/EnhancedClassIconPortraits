@@ -2,9 +2,14 @@
 -- https://wow.curseforge.com/projects/classiconnotportrait
 
 local _, ns = ...
+local config = ns.config
 local units = ns.units
 
-local TEXTURE_NAME = "Interface\\AddOns\\EnhancedClassIconPortraits\\Textures\\%s.tga"
+local TEXTURE_BASE_PATH = "Interface\\AddOns\\EnhancedClassIconPortraits\\Textures\\"
+local TEXTURE_NAME_ORIGINAL = TEXTURE_BASE_PATH .. "Original\\%s.tga"
+local TEXTURE_NAME_FLAT = TEXTURE_BASE_PATH .. "Flat\\%s.tga"
+local TEXTURE_NAME = config.USE_FLAT_ICONS and TEXTURE_NAME_FLAT or TEXTURE_NAME_ORIGINAL
+local TEXTURE_NAME_EVOKER = TEXTURE_NAME_ORIGINAL:format("EVOKER") -- Don't have a flat Evoker icon yet
 
 local function EnabledForUnit(unit)
 	local enabled = units[unit]
@@ -19,7 +24,9 @@ end
 hooksecurefunc("UnitFramePortrait_Update", function(self)
 	if self.portrait and UnitIsPlayer(self.unit) and EnabledForUnit(self.unit) then
 		local _, class = UnitClass(self.unit)
-		if class then
+		if class == "EVOKER" then
+			self.portrait:SetTexture(TEXTURE_NAME_EVOKER)
+		elseif class then
 			self.portrait:SetTexture(TEXTURE_NAME:format(class))
 		else
 			--@alpha@

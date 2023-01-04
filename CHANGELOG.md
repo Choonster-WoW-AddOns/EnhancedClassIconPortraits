@@ -1,5 +1,8 @@
+## 1.3.1
+- Add flat icon for Evoker
+
 ## 1.3.0
-- Add flat icons from saltybear121
+- Add flat icons from the official forums, sent in by saltybear121
 - Add option to switch back to original icons
 
 # 1.2.0

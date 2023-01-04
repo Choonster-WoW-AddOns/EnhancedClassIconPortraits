@@ -7,7 +7,7 @@ local units = {}
 ---------------------
 
 -- If true, use the newer flat class icons. If false, use the original style of class icons.
-config.USE_FLAT_ICONS = true
+config.USE_FLAT_ICONS = false
 
 -- Each `units.<unit> = true/false` line determines whether class icon portraits are enabled (true) or disabled (false) for the specified unit (https://wowpedia.fandom.com/wiki/UnitId)
 -- Additional lines can be added for any unit that has a unit frame with a portrait

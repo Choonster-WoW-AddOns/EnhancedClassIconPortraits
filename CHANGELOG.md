@@ -1,3 +1,6 @@
+## 1.3.2
+- Disable Flat icons by default
+
 ## 1.3.1
 - Add flat icon for Evoker
 
